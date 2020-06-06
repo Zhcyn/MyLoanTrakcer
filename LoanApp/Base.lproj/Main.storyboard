@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CHX-69-eLe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contacts-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" userLabel="Contacts" customClass="FirstViewController" customModule="Loan_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aPN-ZT-VID" userLabel="Static View">
+                                <rect key="frame" x="20" y="98" width="374" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEP-9H-O1Q" userLabel="Loans Given:  2542.12">
+                                        <rect key="frame" x="0.0" y="0.0" width="182" height="100"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="$100,000">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="20"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Loans Given">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1w-Qb-5ty" userLabel="$1.234M Loans Taken">
+                                        <rect key="frame" x="192" y="0.0" width="182" height="100"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="$1.234M">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="25" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Loans Taken">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="g1w-Qb-5ty" secondAttribute="bottom" id="IMs-pZ-sHJ"/>
+                                    <constraint firstItem="g1w-Qb-5ty" firstAttribute="top" secondItem="aPN-ZT-VID" secondAttribute="top" id="UqA-y1-jKn"/>
+                                    <constraint firstItem="mEP-9H-O1Q" firstAttribute="top" secondItem="aPN-ZT-VID" secondAttribute="top" id="gG9-nD-Kmi"/>
+                                    <constraint firstAttribute="height" constant="100" id="rxL-DQ-Bja"/>
+                                    <constraint firstAttribute="bottom" secondItem="mEP-9H-O1Q" secondAttribute="bottom" id="xzU-ns-u76"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fe-OT-ias">
+                                <rect key="frame" x="20" y="213" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PN8-4e-L3C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4xS-mp-9hp">
+                                <rect key="frame" x="20" y="242" width="374" height="654"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xvS-Bq-zke" userLabel="Contact Stack">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="654"/>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bz3-VR-0bs">
+                                        <rect key="frame" x="80" y="285" width="214" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xvS-Bq-zke" firstAttribute="width" secondItem="u4q-D0-ngn" secondAttribute="width" id="D3c-1h-WMN"/>
+                                    <constraint firstItem="xvS-Bq-zke" firstAttribute="trailing" secondItem="xqd-sX-52x" secondAttribute="trailing" id="a5T-1z-Ncd"/>
+                                    <constraint firstItem="xvS-Bq-zke" firstAttribute="top" secondItem="xqd-sX-52x" secondAttribute="top" id="eKJ-I8-PnP"/>
+                                    <constraint firstItem="bz3-VR-0bs" firstAttribute="centerX" secondItem="4xS-mp-9hp" secondAttribute="centerX" id="msz-80-ifU"/>
+                                    <constraint firstItem="xvS-Bq-zke" firstAttribute="leading" secondItem="xqd-sX-52x" secondAttribute="leading" id="nr7-F5-Ick"/>
+                                    <constraint firstItem="xvS-Bq-zke" firstAttribute="bottom" secondItem="xqd-sX-52x" secondAttribute="bottom" id="qL9-hb-I2k"/>
+                                    <constraint firstItem="bz3-VR-0bs" firstAttribute="centerY" secondItem="4xS-mp-9hp" secondAttribute="centerY" id="uqs-6r-jYl"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xqd-sX-52x"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="u4q-D0-ngn"/>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="aPN-ZT-VID" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="10" id="9by-Dx-lWX"/>
+                            <constraint firstItem="9Fe-OT-ias" firstAttribute="top" secondItem="aPN-ZT-VID" secondAttribute="bottom" constant="15" id="BCC-Jg-8A9"/>
+                            <constraint firstAttribute="bottom" secondItem="4xS-mp-9hp" secondAttribute="bottom" id="BNC-m2-4yT"/>
+                            <constraint firstItem="4xS-mp-9hp" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="PGo-JS-QWl"/>
+                            <constraint firstItem="aPN-ZT-VID" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="R9q-o9-63w"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="9Fe-OT-ias" secondAttribute="trailing" constant="20" id="Tbm-19-0O6"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="aPN-ZT-VID" secondAttribute="trailing" constant="20" id="dHD-zq-LgK"/>
+                            <constraint firstItem="4xS-mp-9hp" firstAttribute="top" secondItem="9Fe-OT-ias" secondAttribute="bottom" constant="15" id="dSP-1e-Nwz"/>
+                            <constraint firstItem="9Fe-OT-ias" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="dyo-HX-7C1"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="4xS-mp-9hp" secondAttribute="trailing" constant="20" id="s6a-ay-unR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contacts" id="etQ-q0-R8g"/>
+                    <connections>
+                        <outlet property="balanceLabel" destination="9Fe-OT-ias" id="D4q-fc-fBo"/>
+                        <outlet property="contactStack" destination="xvS-Bq-zke" id="XtP-fw-xRi"/>
+                        <outlet property="defaultLabel" destination="bz3-VR-0bs" id="QcT-lG-kXb"/>
+                        <outlet property="givenLabel" destination="mEP-9H-O1Q" id="ptT-3w-1rG"/>
+                        <outlet property="takenLabel" destination="g1w-Qb-5ty" id="1BT-96-2Fh"/>
+                        <segue destination="0aw-hT-8io" kind="show" identifier="showContactEntry" id="mqV-2d-4fH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1557.9710144927537" y="-321.42857142857139"/>
+        </scene>
+        <!--Contact Entry-->
+        <scene sceneID="xhe-Pv-kdc">
+            <objects>
+                <viewController id="0aw-hT-8io" userLabel="Contact Entry" customClass="ContactEntryController" customModule="Loan_Tracker" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bEh-E4-szG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nMk-Fs-W5N" userLabel="Contact Info">
+                                <rect key="frame" x="40" y="88" width="218" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-uz-hH4" userLabel="Letter" customClass="PaddedLabel" customModule="Loan_Tracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="9vp-ZY-dC4"/>
+                                            <constraint firstAttribute="height" constant="80" id="vle-k7-aaY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-fL-Ygt" userLabel="Details">
+                                        <rect key="frame" x="90" y="0.0" width="128" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Smith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4I-Ej-pZH" userLabel="Name" customClass="PaddedLabel" customModule="Loan_Tracker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="john@smith.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8D-De-FZM" userLabel="Details" customClass="PaddedLabel" customModule="Loan_Tracker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="40" width="128" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15J-ng-YWg" userLabel="Balance">
+                                <rect key="frame" x="20" y="198" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IL8-TV-tln"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTh-mo-mYA">
+                                <rect key="frame" x="20" y="212" width="374" height="684"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Gch-6w-P11" userLabel="Loan Stack">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="684"/>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Loans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9w-g7-j1F">
+                                        <rect key="frame" x="106" y="292.5" width="162" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="q9w-g7-j1F" firstAttribute="centerX" secondItem="kTh-mo-mYA" secondAttribute="centerX" id="FBZ-Xe-y4h"/>
+                                    <constraint firstItem="Gch-6w-P11" firstAttribute="width" secondItem="pVn-TE-oqG" secondAttribute="width" id="Iae-2v-2r5"/>
+                                    <constraint firstItem="Gch-6w-P11" firstAttribute="top" secondItem="vA4-y4-n07" secondAttribute="top" id="KKg-Wy-m5n"/>
+                                    <constraint firstItem="Gch-6w-P11" firstAttribute="leading" secondItem="vA4-y4-n07" secondAttribute="leading" id="f5T-cj-krm"/>
+                                    <constraint firstItem="Gch-6w-P11" firstAttribute="bottom" secondItem="vA4-y4-n07" secondAttribute="bottom" id="gsH-wq-T8m"/>
+                                    <constraint firstItem="q9w-g7-j1F" firstAttribute="centerY" secondItem="kTh-mo-mYA" secondAttribute="centerY" id="h0P-mt-4iq"/>
+                                    <constraint firstItem="Gch-6w-P11" firstAttribute="trailing" secondItem="vA4-y4-n07" secondAttribute="trailing" id="h5n-B4-LF8"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="vA4-y4-n07"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="pVn-TE-oqG"/>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="15J-ng-YWg" firstAttribute="top" secondItem="nMk-Fs-W5N" secondAttribute="bottom" constant="30" id="4tO-SC-3wE"/>
+                            <constraint firstAttribute="bottom" secondItem="kTh-mo-mYA" secondAttribute="bottom" id="9pJ-KF-dwi"/>
+                            <constraint firstItem="nMk-Fs-W5N" firstAttribute="top" secondItem="6ea-Li-LvD" secondAttribute="top" id="GqT-ez-xSX"/>
+                            <constraint firstItem="6ea-Li-LvD" firstAttribute="trailing" secondItem="15J-ng-YWg" secondAttribute="trailing" constant="20" id="UoS-4d-wji"/>
+                            <constraint firstItem="6ea-Li-LvD" firstAttribute="trailing" secondItem="kTh-mo-mYA" secondAttribute="trailing" constant="20" id="Upn-Mt-YjY"/>
+                            <constraint firstItem="nMk-Fs-W5N" firstAttribute="leading" secondItem="6ea-Li-LvD" secondAttribute="leading" constant="40" id="YTf-cY-LVX"/>
+                            <constraint firstItem="kTh-mo-mYA" firstAttribute="leading" secondItem="6ea-Li-LvD" secondAttribute="leading" constant="20" id="dRz-V8-vuZ"/>
+                            <constraint firstItem="15J-ng-YWg" firstAttribute="leading" secondItem="6ea-Li-LvD" secondAttribute="leading" constant="20" id="lTb-l9-yfH"/>
+                            <constraint firstItem="kTh-mo-mYA" firstAttribute="top" secondItem="15J-ng-YWg" secondAttribute="bottom" constant="15" id="pNR-mZ-BYI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6ea-Li-LvD"/>
+                    </view>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="59Y-d2-oHs"/>
+                    <connections>
+                        <outlet property="balanceLabel" destination="15J-ng-YWg" id="SHV-kJ-yAD"/>
+                        <outlet property="defaultLabel" destination="q9w-g7-j1F" id="hxv-th-sCE"/>
+                        <outlet property="detailLabel" destination="E8D-De-FZM" id="OPU-kL-i7D"/>
+                        <outlet property="letterLabel" destination="c4A-uz-hH4" id="br4-NM-2Up"/>
+                        <outlet property="loanStack" destination="Gch-6w-P11" id="U8E-jn-B58"/>
+                        <outlet property="nameLabel" destination="U4I-Ej-pZH" id="LF6-Xt-lP9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pCd-ey-uNO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2337.68115942029" y="-321.42857142857139"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="gP1-x4-2KO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CHX-69-eLe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person" catalog="system" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5vL-bm-gxb">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="ldQ-Il-xcg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Fb-ly-LZD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769.56521739130437" y="-321.42857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+    </resources>
+</document>
